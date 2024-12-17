@@ -1,0 +1,37 @@
+/* General Navbar Styling */
+.header-navbar {
+    padding: 10px 0;
+    background: #212529; /* Bootstrap dark color */
+    border-bottom: 2px solid #343a40;
+  }
+  
+  .header-brand,
+  .header-link,
+  .header-cart-link {
+    display: flex;
+    align-items: center;
+    color: #ffffff !important;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .header-link:hover,
+  .header-cart-link:hover {
+    color: #ffc107 !important; /* Yellow hover effect */
+  }
+  
+  /* Icon Styling */
+  .nav-icon {
+    margin-right: 8px;
+    font-size: 1.2rem;
+  }
+  
+  /* Cart Badge Styling */
+  .cart-badge {
+    font-size: 0.8rem;
+    position: relative;
+    top: -3px;
+    margin-left: 5px;
+  }
+  
